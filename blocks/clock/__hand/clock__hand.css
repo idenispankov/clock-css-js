@@ -1,0 +1,7 @@
+.clock__hand {
+  width: 50%;
+  height: 6px;
+  background: black;
+  position: absolute;
+  top: 50%;
+}
