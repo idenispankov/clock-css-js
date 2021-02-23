@@ -7,13 +7,13 @@
   transform: rotate(90deg);
   transition: all 0.05s;
   transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
-  border-radius: 50%;
+  border-radius: 50px;
 }
 
 .clock__hand_hours {
   height: 7px;
   width: 100px;
-  left: 17%;
+  left: 16.5%;
 }
 
 .clock__hand_minutes {
@@ -24,5 +24,5 @@
 
 .clock__hand_seconds {
   height: 3px;
-  left: 0;
+  left: 1%;
 }
