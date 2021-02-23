@@ -1,7 +1,28 @@
 .clock__hand {
   width: 50%;
-  height: 6px;
   background: black;
   position: absolute;
   top: 50%;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition: all 0.05s;
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+  border-radius: 50%;
+}
+
+.clock__hand_hours {
+  height: 7px;
+  width: 100px;
+  left: 17%;
+}
+
+.clock__hand_minutes {
+  height: 5px;
+  width: 135px;
+  left: 5%;
+}
+
+.clock__hand_seconds {
+  height: 3px;
+  left: 0;
 }
